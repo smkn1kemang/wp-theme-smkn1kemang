@@ -1,0 +1,395 @@
+$medium: 768px;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+// Commponent
+nav {
+    min-height: 70px;
+    
+    .redkim {
+        font-weight: 600;
+        letter-spacing: 4px;
+        color: #292929;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .nav-item {
+        margin: 0 10px;
+        
+        .nav-link {
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: rgba($color: #000000, $alpha: 0.9) !important;
+            
+            &:hover {
+                color: rgba($color: #0d6efd, $alpha: 1.0) !important;
+            }
+        }
+
+        .dropdown-item {
+            margin-top: 10px;
+        }
+        
+        .active {
+            color: rgba($color: #0d6efd, $alpha: 1.0) !important;
+        }
+
+        .btn {
+            margin-left: 40px;
+
+            @media screen and (max-width: $medium) {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.date-container {
+    font-size: 16px;
+}
+
+.judul {
+    font-weight: 400;
+}
+
+.content {
+    p img {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #133A9E;
+    min-height: 380px;
+    margin-top: 100px;
+
+    .logo {
+        height: 100px;
+    }
+    
+    .jargon {
+        font-size: 18px;
+    }
+
+    h5 {
+        color: #ffffff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #eeeeee;
+        font-weight: 300;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    hr {
+        color: #ffffff;
+    }
+
+    span {
+        color: #ffffff;
+        font-weight: 300;
+        min-height: 80px;
+    }
+
+    .kontak {
+        color: #ffffff;
+        .kontak-item {
+            img {
+                height: 20px;
+            }
+        }
+
+        font-weight: 300;
+    }
+
+    @media screen and (max-width: $medium) {
+        .logo {
+            height: 80px;
+        }
+    }
+
+    
+}
+// end component
+
+// Costumize bootstrap
+.card {
+    .card-title {
+        font-weight: 400;
+        text-decoration: none;
+        color: #000000;
+
+        &:hover {
+            color: #0d6efd;
+        }
+    }
+}
+
+.btn-primary {
+    background-color: #3B82F6 !important;
+    font-size: 16px;
+    
+    &:hover {
+        background-color: #1D4ED8 !important;
+    }
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+// end costumize
+
+// Homepage
+header {
+    height: 660px;
+    width: 100%;
+    background: url(../assets/img/bg.jpg) no-repeat center fixed;
+    background-size: cover;
+
+    .content {
+        margin-top: 180px;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .button-container {
+        width: auto;
+
+        .info-btn {
+            padding: 10px 20px;
+        }
+
+        .profile-btn {
+            padding: 10px 20px;
+            
+            .svg-alternative {
+                display: none;
+            }
+
+            &:hover {
+                .svg-alternative {
+                    display: inline-block;
+                }
+
+                .svg-one {
+                    display: none;
+                }
+            }
+        }
+
+        img {
+            height: 20px;
+        }
+    }
+
+    @media screen and (max-width: $medium) {
+        height: 480px;
+
+        .content {
+            margin-top: 60px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.section-sejarah {
+    margin-top: 100px;
+
+    img {
+        width: 100%;
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    button {
+        width: 150px;
+        height: 45px;
+    }
+
+    selengkapnya-btn {
+        padding: 10px 10px !important;
+    }
+
+    @media screen and (max-width: $medium) {
+        margin-top: 60px;
+
+        p {
+            font-size: 16px;
+        }
+
+        button {
+            width: 140px;
+            height: 40px;
+        }
+    }
+}
+
+.section-vismistu {
+    margin-top: 100px;
+
+    .card {
+        border: solid 1px #3B82F6;
+
+        .ic {
+            width: 60px;
+            height: 60px;
+        }
+
+        h2 {
+            margin-top: 4px;
+            font-size: 24px;
+        }
+
+        p {
+            margin-top: 24px;
+            font-size: 18px;
+        }
+        .svg-alternative {
+            display: none;
+        }
+
+        &:hover {
+            background-color: #3B82F6 !important;
+            transition: all 0.5s;
+            
+            .svg-one {
+                display: none;
+            }
+
+            .svg-alternative{
+                display: block;
+            }
+
+            h2 {
+                color: #ececec;
+            }
+
+            p {
+                color: #ececec !important;
+            }
+            
+            cursor: context-menu;
+        }    
+
+        
+    }
+    
+    @media screen and (max-width: $medium) {
+        margin-top: 80px;
+    }
+}
+
+.section-jurusan {
+    margin-top: 100px;
+    background-color: #F6FAFF;
+
+    .card {
+        border: none;
+        height: 224px;
+        border-radius: 10px;
+
+        .card-img-top {
+            height: 80px;
+        }  
+
+        .card-body {
+            font-size: 18px;
+        }
+    }
+
+    .splide {
+        height: 300px;
+        visibility: visible;
+    }
+}
+
+.section-berita {
+    .card {
+        .card-body {
+            font-weight: 300;
+            font-size: 18px;
+        }   
+    }
+
+    .lainya-btn {
+        padding: 10px 30px;
+    }
+}
+// end Homepage
+
+// Contact
+.section-contact {
+    margin-bottom: 150px;
+
+    .contact-icon {
+       height: 80px; 
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.maps {
+    margin-bottom: -500px;
+}
+// End Contact
+
+.section-galeri {
+    margin-bottom: 100px;
+
+    .img-container {
+        height: 200px;
+    }
+    .container-grid {
+        position: relative;
+        height: 300px;
+    }
+
+    .image{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

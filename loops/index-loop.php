@@ -9,13 +9,13 @@
 
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-  <?php get_template_part('loops/index-post', get_post_format()); ?>
+<?php get_template_part('loops/index-post', get_post_format()); ?>
 
-  <?php endwhile; ?>
+<?php endwhile; ?>
 
-  <?php bootstrap_pagination(); ?>
+<?php bootstrap_pagination(); ?>
 
-  <?php
+<?php
   else :
     get_template_part('loops/404');
   endif;

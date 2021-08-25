@@ -6,37 +6,34 @@
  */
 ?>
 
+<div class="col-12 col-md-6 col-lg-4"  id="post_<?php the_ID()?>" <?php post_class("wrap-md entry-content pt-5"); ?>>
+  <div class="card mx-3 mb-5 p-4 shadow-sm rounded">
+      <?php the_post_thumbnail(); ?>
 
-<article role="article" id="post_<?php the_ID()?>" <?php post_class("wrap-md entry-content pt-5"); ?> >
-  <header>
-    <?php the_post_thumbnail(); ?>
-    <div class="index-post-category mb-3 text-muted">
-      <i class="bi bi-bookmark"></i> 
-      <span class="text-uppercase"><?php the_category(', '); ?></span>
-    </div>
-    <h2 class="h1 mb-3 fw-bolder">
-      <a href="<?php the_permalink(); ?>">
-        <?php the_title()?>
-      </a>
-    </h2>
-  </header>
+      <div class="card-body p-0">
+          <div class="date-container d-flex align-items-center my-3">
+              <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_calendar.svg" alt="" class="me-2" width="16px">
+              <span class="text-muted"><?php b5st_post_date(); ?></span>
+          </div>
 
-  <section>
-    <?php if ( has_excerpt( $post->ID ) ) {
-    the_excerpt();
-    ?><a href="<?php the_permalink(); ?>">
-    	<?php _e( 'Continue reading →', 'b5st' ) ?>
-      </a>
-  	<?php } else {
-  	  the_content( __('Continue reading →', 'b5st' ) );
-	  } ?>
-
-    <div class="text-muted mb-3">
-      <i class="bi bi-calendar3"></i> <?php b5st_post_date(); ?>
-      <i class="bi bi-person-circle"></i> <?php _e('By ', 'b5st'); the_author_posts_link(); ?>
-      <i class="bi bi-chat-text"></i> <a href="<?php comments_link(); ?>"><?php printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), '', 'b5st' ), number_format_i18n( get_comments_number() ) ); ?></a>
-    </div>
-  </section>
-
-  <hr class="mt-5">
-</article>
+          <h4>
+              <a
+                  href="<?php the_permalink(); ?>"
+                  class="card-title"
+              >
+                <?php the_title()?>
+              </a>
+          </h4>
+          <p class="card-text mt-3">
+            <?php if ( has_excerpt( $post->ID ) ) {
+              the_excerpt();
+              ?><a href="<?php the_permalink(); ?>">
+                <?php _e( 'Continue reading →', 'b5st' ) ?>
+                </a>
+              <?php } else {
+                the_content( __('Continue reading →', 'b5st' ) );
+            } ?>
+          </p>
+      </div>
+  </div>
+</div>

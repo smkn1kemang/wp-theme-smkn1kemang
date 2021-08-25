@@ -1,0 +1,375 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  min-height: 70px;
+}
+
+nav .redkim {
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #292929;
+}
+
+nav .logo {
+  height: 50px;
+}
+
+nav .nav-item {
+  margin: 0 10px;
+}
+
+nav .nav-item .nav-link {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+nav .nav-item .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+nav .nav-item .dropdown-item {
+  margin-top: 10px;
+}
+
+nav .nav-item .active {
+  color: #0d6efd !important;
+}
+
+nav .nav-item .btn {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-item .btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+.date-container {
+  font-size: 16px;
+}
+
+.judul {
+  font-weight: 400;
+}
+
+.content p img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+footer {
+  background-color: #133A9E;
+  min-height: 380px;
+  margin-top: 100px;
+}
+
+footer .logo {
+  height: 100px;
+}
+
+footer .jargon {
+  font-size: 18px;
+}
+
+footer h5 {
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 300;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer hr {
+  color: #ffffff;
+}
+
+footer span {
+  color: #ffffff;
+  font-weight: 300;
+  min-height: 80px;
+}
+
+footer .kontak {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+footer .kontak .kontak-item img {
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer .logo {
+    height: 80px;
+  }
+}
+
+.card .card-title {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+}
+
+.card .card-title:hover {
+  color: #0d6efd;
+}
+
+.btn-primary {
+  background-color: #3B82F6 !important;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #1D4ED8 !important;
+}
+
+.rounded {
+  border-radius: 10px !important;
+}
+
+header {
+  height: 660px;
+  width: 100%;
+  background: url(../assets/img/bg.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+header .content {
+  margin-top: 180px;
+}
+
+header h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+header .button-container {
+  width: auto;
+}
+
+header .button-container .info-btn {
+  padding: 10px 20px;
+}
+
+header .button-container .profile-btn {
+  padding: 10px 20px;
+}
+
+header .button-container .profile-btn .svg-alternative {
+  display: none;
+}
+
+header .button-container .profile-btn:hover .svg-alternative {
+  display: inline-block;
+}
+
+header .button-container .profile-btn:hover .svg-one {
+  display: none;
+}
+
+header .button-container img {
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 480px;
+  }
+  header .content {
+    margin-top: 60px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header p {
+    font-size: 18px;
+  }
+}
+
+.section-sejarah {
+  margin-top: 100px;
+}
+
+.section-sejarah img {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.section-sejarah p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-sejarah button {
+  width: 150px;
+  height: 45px;
+}
+
+.section-sejarah selengkapnya-btn {
+  padding: 10px 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .section-sejarah {
+    margin-top: 60px;
+  }
+  .section-sejarah p {
+    font-size: 16px;
+  }
+  .section-sejarah button {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+.section-vismistu {
+  margin-top: 100px;
+}
+
+.section-vismistu .card {
+  border: solid 1px #3B82F6;
+}
+
+.section-vismistu .card .ic {
+  width: 60px;
+  height: 60px;
+}
+
+.section-vismistu .card h2 {
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.section-vismistu .card p {
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.section-vismistu .card .svg-alternative {
+  display: none;
+}
+
+.section-vismistu .card:hover {
+  background-color: #3B82F6 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: context-menu;
+}
+
+.section-vismistu .card:hover .svg-one {
+  display: none;
+}
+
+.section-vismistu .card:hover .svg-alternative {
+  display: block;
+}
+
+.section-vismistu .card:hover h2 {
+  color: #ececec;
+}
+
+.section-vismistu .card:hover p {
+  color: #ececec !important;
+}
+
+@media screen and (max-width: 768px) {
+  .section-vismistu {
+    margin-top: 80px;
+  }
+}
+
+.section-jurusan {
+  margin-top: 100px;
+  background-color: #F6FAFF;
+}
+
+.section-jurusan .card {
+  border: none;
+  height: 224px;
+  border-radius: 10px;
+}
+
+.section-jurusan .card .card-img-top {
+  height: 80px;
+}
+
+.section-jurusan .card .card-body {
+  font-size: 18px;
+}
+
+.section-jurusan .splide {
+  height: 300px;
+  visibility: visible;
+}
+
+.section-berita .card .card-body {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.section-berita .lainya-btn {
+  padding: 10px 30px;
+}
+
+.section-contact {
+  margin-bottom: 150px;
+}
+
+.section-contact .contact-icon {
+  height: 80px;
+}
+
+.section-contact h4 {
+  font-weight: 500;
+}
+
+.section-contact p {
+  font-size: 16px;
+}
+
+.section-contact h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.maps {
+  margin-bottom: -500px;
+}
+
+.section-galeri {
+  margin-bottom: 100px;
+}
+
+.section-galeri .img-container {
+  height: 200px;
+}
+
+.section-galeri .container-grid {
+  position: relative;
+  height: 300px;
+}
+
+.section-galeri .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*# sourceMappingURL=index.css.map */

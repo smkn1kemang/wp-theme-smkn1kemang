@@ -20,7 +20,15 @@ function b5st_navbar_after() {
 function b5st_navbar_brand() {
   if ( ! has_action('navbar_brand') ) {
     ?>
-    <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><?php bloginfo('name'); ?></a>
+      <a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>">
+            <img
+                src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/img/logo.png"
+                class="logo"
+                alt="Logo SMKN 1 Kemang"
+            >
+            <span class="redkim ms-3 p-0"><?php bloginfo('name'); ?></span>
+      </a>
+
     <?php
   } else {
 		do_action('navbar_brand');
@@ -74,7 +82,7 @@ function b5st_dimox_single_post() {
   <?php }
 };
 
-add_action( 'mainbody_before', 'b5st_dimox_single_post' );
+// add_action( 'mainbody_before', 'b5st_dimox_single_post' );
 
 /*
  * Mainbody Widgets 1 Insertion
@@ -92,7 +100,7 @@ function b5st_mainbody_widgets_1() {
     </section>
   <?php endif;
 };
-add_action( 'mainbody_end', 'b5st_mainbody_widgets_1' );
+// add_action( 'mainbody_end', 'b5st_mainbody_widgets_1' );
 
 // Footer (in `footer.php`)
 

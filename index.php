@@ -238,19 +238,16 @@
       <div class="container">
           <h2 class="py-3 text-center text-md-start">Berita Terbaru</h2>
           <div class="row mt-5">
-            
               <?php
                 b5st_mainbody_start();
                 get_template_part('loops/index-loop');
                 b5st_mainbody_end();
               ?>
-            </div>
+            </div>       
           </div>
-          <!-- <div class="row">
-              <div class="col-12 d-flex justify-content-center">
-                  <a href="/berita" class="btn btn-primary my-5 shadow-sm lainya-btn">Lainya</a>
-              </div>
-          </div> -->
+          <div class="d-flex justify-content-center">
+            <a href="<?php echo get_site_url();?>/category/berita" class="btn btn-primary my-5 shadow-sm lainya-btn">Lainya</a>
+          </div>
       </div>
   </section>
 </main>
@@ -259,3 +256,6 @@
   // b5st_mainbody_after();
   get_footer(); 
 ?>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="<?php echo get_bloginfo( 'template_directory' );?>/theme/js/splideConfig.js"></script>

@@ -82,7 +82,7 @@ if (have_comments()) : ?>
       <h3 class="mt-5 mb-3">
         <?php printf(
           /* translators: 1: title. */
-          esc_html__( 'Feedback', 'b5st' ),
+          esc_html__( 'Comment', 'b5st' ),
           '<span>' . get_the_title() . '</span>'
         );?>
       </h3>

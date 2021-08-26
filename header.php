@@ -38,7 +38,7 @@
               'walker'          => new b5st_walker_nav_menu()
             ) );
           ?>
-            <a href="/contact" class="btn btn-primary mt-3 mt-md-0">
+            <a href="<?php echo get_bloginfo( 'template_directory' );?>/contact" class="btn btn-primary mt-3 ms-4 mt-md-0">
                     Hubungi Kami
             </a>
         </div>

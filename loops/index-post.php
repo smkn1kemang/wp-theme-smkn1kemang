@@ -25,14 +25,9 @@
               </a>
           </h4>
           <p class="card-text mt-3">
-            <?php if ( has_excerpt( $post->ID ) ) {
+            <?php 
               the_excerpt();
-              ?><a href="<?php the_permalink(); ?>">
-                <?php _e( 'Continue reading →', 'b5st' ) ?>
-                </a>
-              <?php } else {
-                the_content( __('Continue reading →', 'b5st' ) );
-            } ?>
+            ?>
           </p>
       </div>
   </div>

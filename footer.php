@@ -109,8 +109,8 @@
     </span>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<script src="<?php echo get_bloginfo( 'template_directory' );?>/theme/js/splideConfig.js"></script>
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script>
+
 
 <?php b5st_footer_after();?>
 

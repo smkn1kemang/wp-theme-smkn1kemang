@@ -164,7 +164,7 @@
               <div class="splide__track">
                   <ul class="splide__list row">
                       <li class="splide__slide col-10 col-lg-4">
-                          <a href="/jurusan/tesha" class="nav-link text-dark">
+                          <a href="/jurusan-tesha" class="nav-link text-dark">
                               <div class="card shadow-sm">
                                   <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_tesha.svg" class="card-img-top mx-auto mt-4" alt="">
                                   <h3 class="card-title text-center mt-3">
@@ -177,7 +177,7 @@
                           </a>
                       </li>
                       <li class="splide__slide col-10 col-lg-4">
-                          <a href="/jurusan/dpib" class="nav-link text-dark">
+                          <a href="/jurusan-dpib" class="nav-link text-dark">
                               <div class="card shadow-sm">
                                   <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_dpib.svg" class="card-img-top mx-auto mt-4" alt="">
                                   <h3 class="card-title text-center mt-3">
@@ -190,7 +190,7 @@
                           </a>
                       </li>
                       <li class="splide__slide col-10 col-lg-4">
-                          <a href="/jurusan/tkj" class="nav-link text-dark">
+                          <a href="/jurusan-tkj" class="nav-link text-dark">
                               <div class="card shadow-sm">
                                   <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_tkj.svg" class="card-img-top mx-auto mt-4" alt="">
                                   <h3 class="card-title text-center mt-3">
@@ -203,7 +203,7 @@
                           </a>
                       </li>
                       <li class="splide__slide col-10 col-lg-4">
-                          <a href="/jurusan/tbo" class="nav-link text-dark">
+                          <a href="/jurusan-tbo" class="nav-link text-dark">
                               <div class="card shadow-sm">
                                   <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_tbo.svg" class="card-img-top mx-auto mt-4" alt="">
                                   <h3 class="card-title text-center mt-3">
@@ -216,7 +216,7 @@
                           </a>
                       </li>
                       <li class="splide__slide col-10 col-lg-4">
-                          <a href="/jurusan/tkkr" class="nav-link text-dark">
+                          <a href="/jurusan-tkkr" class="nav-link text-dark">
                               <div class="card shadow-sm">
                                   <img src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_tkkr.svg" class="card-img-top mx-auto mt-4" alt="">
                                   <h3 class="card-title text-center mt-3">

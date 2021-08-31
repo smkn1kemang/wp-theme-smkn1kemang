@@ -16,7 +16,7 @@
                           Religius, Disiplin, Kreatif, Inovatif dan Mandiri.
                       </p>
                       <div class="button-container mt-5">
-                          <a href="/page/ppdb-2021" class="mt-3 mt-md-0 btn btn-primary me-3 shadow-sm info-btn">
+                          <a href="/info-ppdb" class="mt-3 mt-md-0 btn btn-primary me-3 shadow-sm info-btn">
                               <img
                                   src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_switch.svg"
                                   alt="icon ppdb"
@@ -26,7 +26,7 @@
                                   Info PPDB
                               </span>
                           </a> 
-                          <a href="/page/profil-sekolah" class="mt-3 mt-md-0 btn btn-outline-light shadow-sm profile-btn">
+                          <a href="/profil-sekolah" class="mt-3 mt-md-0 btn btn-outline-light shadow-sm profile-btn">
                               <img
                                   src="<?php echo get_bloginfo( 'template_directory' );?>/theme/assets/icon/ic_home.svg"
                                   alt="icon profil"
@@ -61,7 +61,7 @@
                   <p class="mt-3 mt-lg-2 mt-xxl-4 text-muted">
                       SMK Negeri 1 Kemang berdiri Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged....
                   </p>
-                  <a href="/page/sejarah-sekolah" class="btn btn-primary mt-3 py-2 px-3 shadow-sm selengkapnya-btn">
+                  <a href="/sejarah-sekolah" class="btn btn-primary mt-3 py-2 px-3 shadow-sm selengkapnya-btn">
                       Selengkapnya
                   </a>
               </div>
